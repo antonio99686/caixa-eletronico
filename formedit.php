@@ -25,29 +25,22 @@
                             <form action="edit.php" method="POST" enctype="multipart/form-data">
                         <div>
                         <div class="mb-3">
-                            <label>Nome completo</label>
+                            <label>Nome </label>
                             <input type="text" name="nome"
                              class="form-control">
                         </div>
                     </div>
                     <div>
                         <div class="mb-3">
-                            <label>Senha</label>
-                            <input type="password" name="senha" 
+                            <label>valor</label>
+                            <input type="text" name="valor" 
                             class="form-control">
                         </div>
                     </div>
-                    <div>
-                        <div class="mb-3">
-                            <label>E-mail</label>
-                            <input type="email" name="email" 
-                            class="form-control">
-                        </div>
-                    </div>
+                  
                    
                        
-                            <button type="submit" class="btn 
-       btn-primary"> Enviar </button>
+                            <button type="submit" class="btn btn-dark btn-lg"> Enviar </button>
 
 
                         </div>

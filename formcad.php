@@ -19,7 +19,7 @@
                 <div class="col-lg-4 offset-lg-4">
                     <div class="card">
                         <div class="card-body">
-                            <h3>Cadastre-se</h3>
+                            <h3>Depositar</h3>
                         </div>
                         <div class="card-body">
                             <form action="cadastrar.php" method="POST" enctype="multipart/form-data">
@@ -33,21 +33,16 @@
                     <div>
                         <div class="mb-3">
                             <label>valor</label>
-                            <input type="" name="senha" 
+                            <input type="text" name="valor" 
                             class="form-control">
                         </div>
                     </div>
                     <div>
-                        <div class="mb-3">
-                            <label>E-mail</label>
-                            <input type="email" name="email" 
-                            class="form-control">
-                        </div>
+                        
                     </div>
                    
                        
-                            <button type="submit" class="btn 
-       btn-primary"> Enviar </button>
+                            <button type="submit" class="btn btn-dark btn-lg"> Enviar </button>
 
 
                         </div>

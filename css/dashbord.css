@@ -10,6 +10,7 @@
    margin-left: 32%;
    width: 40%;
    padding: 1%;
+   left: -25%;
 
 
 }
@@ -29,67 +30,19 @@ h3{
   left: 5%;
 }
 
-.titulo{
-   margin-top: 10%;
-   font-size: 1.5em;
-   margin-left: 20px;
-   
-}
-.corpo{
-         display: flex;
-         flex-direction: center;
-         padding-top: 5%;
-         
-       }
-       
-.card {
-   border-radius: 5px;
-   box-shadow: 7px 4px 13px 0px rgba(50, 50, 50, 0.22);
-   padding: 30px;
-   margin: 20px;
-   width: 400px;
-   transition: all 0.3s ease-out;
-   }
- .card:hover {
-   transform: translateY(-8px);
-   cursor: pointer;
- }
- 
- .card p{
-     text-align: center;
-     font-size: 19px;
-     padding-top: 20px;
-   }
-   .card h2{
-       padding-left: 5%;
-       color:black;
-       text-align: center;
-      
-       
-   }
 
-       .vermelho.card{
-               border-left: 10px solid red;
-           }
-       .azul.card{
-               border-left: 10px solid blue;
-         }
-       .roxo.card{
-             border-left: 10px solid blueviolet ;
-           }
-       .verde.card{
-               border-left: 10px solid green;
-         }
+
+
          
 .barra{
-  border-radius: 5px;
-   box-shadow: 7px 4px 13px 0px rgba(50, 50, 50, 0.22);
+  
+   
    margin: 5%;
    width: 15%;
-   transition: all 0.3s ease-out; 
+  
    position: relative;
-   left: 10%;
-   margin-top: 5%;
+   left: 60%;
+   margin-top: -7%;
 
 }
 

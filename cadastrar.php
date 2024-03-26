@@ -16,7 +16,7 @@ $sql = "INSERT INTO deposito(
   valor,
      nome)
  VALUES 
- ('$valor','$usario')";
+ ('$valor','$usuario')";
 
 // Executar o comando SQL
 if (mysqli_query($conexao, $sql)){
